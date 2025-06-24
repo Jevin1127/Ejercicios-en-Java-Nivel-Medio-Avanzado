@@ -1,0 +1,11 @@
+Use prueba1;
+
+CREATE TABLE prueba1.alumno (
+  id 		int NOT NULL AUTO_INCREMENT,
+  nombre 	varchar(60) DEFAULT NULL,
+  numerocuenta 	varchar(20) DEFAULT NULL,
+  carrera 		varchar(60) DEFAULT NULL,
+  sexo 		varchar(20) DEFAULT NULL,
+  PRIMARY KEY (id)
+) AUTO_INCREMENT=1;
+

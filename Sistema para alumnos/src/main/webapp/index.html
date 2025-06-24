@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registro de Alumnos</title>
+</head>
+<body>
+ <h1>Agregar Alumno</h1>
+ <form action="AgregarAlumno" method="post">
+ <table>
+   <tr><td>Nombre del Alumno:</td><td><input type="text" name="nombre"/></td></tr>
+   <tr><td>Numero de Cuenta:</td><td><input type="text" name="numerocuenta"/></td></tr>
+   <tr><td>Carrera: </td><td><input type="text" name="carrera"/></td></tr>
+   <tr><td>Sexo: </td><td>
+   <select name="sexo" style="width:150px">
+   <option>Masculino</option>
+   <option>Femenino</option>
+   </select>
+   </tr><tr><td colspan="2"><input type="submit" value="Guardar"/></td></tr>
+ </table> 
+ </form>
+ <br>
+ <a href="ConsultarAlumno">Consultar Alumno</a> 
+</body>
+</html>

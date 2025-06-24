@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Mantenimiento de usuarios</title>
+</head>
+<body>
+ <h1>Agregar usuario</h1>
+ <form action="AgregarUsuario" method="post">
+ <table>
+   <tr><td>Nombre:</td><td><input type="text" name="nombre"/></td></tr>
+   <tr><td>Contraseña</td><td><input type="password" name="contrasena"/></td></tr>
+   <tr><td>Email</td><td><input type="email" name="email"/></td></tr>
+   <tr><td>País</td><td>
+   <select name="pais" style="width:150px">
+   <option>Honduras</option>
+   <option>Guatemala</option>
+   <option>Nicaragua</option>
+   <option>Otro</option>
+   </select>
+   </tr><tr><td colspan="2"><input type="submit" value="Guardar"/></td></tr>
+ </table> 
+ </form>
+ <br>
+ <a href="ConsultarUsuario">Consultar usuario</a> 
+</body>
+</html>

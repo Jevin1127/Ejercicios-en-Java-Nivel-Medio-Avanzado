@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+<meta charset="ISO-8859-1">
+<title>Tasa de Cambio</title>
+<style type="text/css">
+h1 { 
+color: blue;  
+background-color: green;
+}
+
+.centrado{
+text-aling: center;
+background-color: gray;
+}
+</style>
+</head>
+<body>
+<div class= "centrado"> 
+  <h1> Tasa de Cambio</h1>
+  <h2> Seleccione el el tipo de cambio </h2>
+  <h3></h3>
+  </div>
+
+  
+  <form method="get" action="calculoMonedas">
+  	<div>
+  	
+  	<input type="radio" id="HNLtoUSD" name="radioOper" value="HNLtoUSD" checked>  	
+  	<label for=HNLtoUSD>Lempiras a Dolares</label>  	
+  	<input type="radio" id="HNLtoEUR" name="radioOper" value="HNLtoEUR">
+  	<label for=HNLtoEUR>Lempiras a Euros</label>    
+
+  
+  	</div>
+  	
+  	<br>
+   Valor en Lempiras <input type="text" name="txtNum1">
+    <br><br>
+    <input type="submit" value="Calcular" name="cmdCalcular">
+  </form>
+  
+</body>
+</html>
